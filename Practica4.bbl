@@ -1,0 +1,301 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Practicas2025}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=fafcf4ead696900909511e172931ea10}{%
+           family={Olalla},
+           familyi={O\bibinitperiod},
+           given={J.-M.\bibnamedelimi Martín},
+           giveni={J\bibinithyphendelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=015bcf1988f192a95badcc24b861e362}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={F.\bibnamedelimi J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=178152d141bc348d116ff276d43accbf}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi Caballero},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{52e0d701eb8a85606399eec18264c102}
+      \strng{fullhash}{52e0d701eb8a85606399eec18264c102}
+      \strng{bibnamehash}{52e0d701eb8a85606399eec18264c102}
+      \strng{authorbibnamehash}{52e0d701eb8a85606399eec18264c102}
+      \strng{authornamehash}{52e0d701eb8a85606399eec18264c102}
+      \strng{authorfullhash}{52e0d701eb8a85606399eec18264c102}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{PRÁCTICAS del Laboratorio de Termodinámica}
+      \field{year}{2025}
+    \endentry
+    \entry{Lemmon2026}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=813e75e54260463028a1b953e8b45dcb}{%
+           family={Lemmon},
+           familyi={L\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=acd8fa9f0e06c0d3faaa32606f2eb8f1}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={Ian\bibnamedelima H.},
+           giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5c8f28b723982f119bb9c90bc8a05c38}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Marcia\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1db0da5701316d8e43ffbb3d5213f2ab}{%
+           family={McLinden},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima O.},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=888d426f66ad626403eed0a8d35b5f32}{%
+           family={Linstrom},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d389729f110111c312169e9a73f539fb}{%
+           family={Mallard},
+           familyi={M\bibinitperiod},
+           given={W.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gaithersburg, MD}%
+      }
+      \list{publisher}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{961628e0ee6560172fd319076d306d06}
+      \strng{fullhash}{ee3bf4706f5e25b488cc88aba496c559}
+      \strng{bibnamehash}{ee3bf4706f5e25b488cc88aba496c559}
+      \strng{authorbibnamehash}{ee3bf4706f5e25b488cc88aba496c559}
+      \strng{authornamehash}{961628e0ee6560172fd319076d306d06}
+      \strng{authorfullhash}{ee3bf4706f5e25b488cc88aba496c559}
+      \strng{editorbibnamehash}{fcfd2c56673f315d42b77094c6dac7c9}
+      \strng{editornamehash}{fcfd2c56673f315d42b77094c6dac7c9}
+      \strng{editorfullhash}{fcfd2c56673f315d42b77094c6dac7c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{NIST Chemistry WebBook, NIST Standard Reference Database Number 69}
+      \field{note}{Obtenido 22 febrero 2026}
+      \field{title}{Thermophysical Properties of Fluid Systems}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.18434/T4D303
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.18434/T4D303
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.18434/T4D303
+      \endverb
+    \endentry
+    \entry{Knutson1969}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fcc3447e87fe3a87423e2fc9c57335e8}{%
+           family={Knutson},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2b72c10194c6c4ff7aec69dfa0f0b93c}{%
+           family={Salinger},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0dbf50dfa46206d10f8ca911c736368}
+      \strng{fullhash}{c0dbf50dfa46206d10f8ca911c736368}
+      \strng{bibnamehash}{c0dbf50dfa46206d10f8ca911c736368}
+      \strng{authorbibnamehash}{c0dbf50dfa46206d10f8ca911c736368}
+      \strng{authornamehash}{c0dbf50dfa46206d10f8ca911c736368}
+      \strng{authorfullhash}{c0dbf50dfa46206d10f8ca911c736368}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-921X}
+      \field{journaltitle}{The Physics Teacher}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{TPT NOTES: A Simple Measurement of the Heat of Vaporization of Liquid Nitrogen}
+      \field{volume}{7}
+      \field{year}{1969}
+      \field{pages}{288\bibrangedash 289}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1119/1.2351368
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aapt/pte/article-pdf/7/5/288/11375462/288_1_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1119/1.2351368
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1119/1.2351368
+      \endverb
+    \endentry
+    \entry{Olalla2025}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=fafcf4ead696900909511e172931ea10}{%
+           family={Olalla},
+           familyi={O\bibinitperiod},
+           given={J.-M.\bibnamedelimi Martín},
+           giveni={J\bibinithyphendelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fafcf4ead696900909511e172931ea10}
+      \strng{fullhash}{fafcf4ead696900909511e172931ea10}
+      \strng{bibnamehash}{fafcf4ead696900909511e172931ea10}
+      \strng{authorbibnamehash}{fafcf4ead696900909511e172931ea10}
+      \strng{authornamehash}{fafcf4ead696900909511e172931ea10}
+      \strng{authorfullhash}{fafcf4ead696900909511e172931ea10}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Cómo escribir textos científicos}
+      \field{year}{2025}
+    \endentry
+    \entry{TEB2025}{unpublished}{}
+      \name{author}{8}{}{%
+        {{hash=e83b7f1ec95b1261c9fdee0eb41a21d2}{%
+           family={Fedriani},
+           familyi={F\bibinitperiod},
+           given={L.\bibnamedelimi M.\bibnamedelimi Esquivias},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=eda68a26d62de25c14a5a3755e522819}{%
+           family={Arellano\bibnamedelima López},
+           familyi={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={A.\bibnamedelimi Rámirez},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=8fe7ff4d22f86400d08afc48e04b3903}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi C.\bibnamedelimi Lemos},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cb0fd189df351e40c4fe715bd71bd630}{%
+           family={Mora},
+           familyi={M\bibinitperiod},
+           given={F.\bibnamedelimi Gutiérrez},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b0daef131ebb109a0785ca148ec0217c}{%
+           family={Bados},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi Ipus},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=b2266c0c4061e966ce666078440c0fc3}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi Mesquita},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9e79ec012939225cfb3d36a77986493f}{%
+           family={Pedroso},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi Morán},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bb4e60fd20e5118824de2b3b9b4bf4a2}{%
+           family={Muñoz},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi Fernández},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{632e488adc61b7fb43372bd39a8746a7}
+      \strng{fullhash}{58d41bfc4437bc501c4f8b21adaf69b2}
+      \strng{bibnamehash}{632e488adc61b7fb43372bd39a8746a7}
+      \strng{authorbibnamehash}{632e488adc61b7fb43372bd39a8746a7}
+      \strng{authornamehash}{632e488adc61b7fb43372bd39a8746a7}
+      \strng{authorfullhash}{58d41bfc4437bc501c4f8b21adaf69b2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nociones elementales del tratamiento de datos y de la presentación de resultados}
+      \field{year}{2024-2025}
+    \endentry
+    \entry{gnuplot54p2}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=7dd649d84847634e415c312a17549e72}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1d5f3a52af9c09dbfcae2e51f799fd3f}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d89e2ddb530bb8953b290ab0793aecb0}{%
+           family={{col.}},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bbbdc0c071b96e713ea501adbd56277}
+      \strng{fullhash}{0bbbdc0c071b96e713ea501adbd56277}
+      \strng{bibnamehash}{0bbbdc0c071b96e713ea501adbd56277}
+      \strng{authorbibnamehash}{0bbbdc0c071b96e713ea501adbd56277}
+      \strng{authornamehash}{0bbbdc0c071b96e713ea501adbd56277}
+      \strng{authorfullhash}{0bbbdc0c071b96e713ea501adbd56277}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://gnuplot.sourceforge.net/}}
+      \field{title}{Gnuplot 5.4 patchlevel 2: an interactive plotting program}
+      \field{year}{2021}
+    \endentry
+    \entry{orgmode952}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2079c893650f2bcdbcaa7a1710615a88}{%
+           family={{The Org Mode Developers}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2079c893650f2bcdbcaa7a1710615a88}
+      \strng{fullhash}{2079c893650f2bcdbcaa7a1710615a88}
+      \strng{bibnamehash}{2079c893650f2bcdbcaa7a1710615a88}
+      \strng{authorbibnamehash}{2079c893650f2bcdbcaa7a1710615a88}
+      \strng{authornamehash}{2079c893650f2bcdbcaa7a1710615a88}
+      \strng{authorfullhash}{2079c893650f2bcdbcaa7a1710615a88}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://orgmode.org}}
+      \field{title}{Org mode, version 9.5.2}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,63 @@
+#+BEGIN_SRC gnuplot :var data=datosPractica4.org:entalpia-vaporizacion :exports results :eval yes
+  reset
+
+  set term epslatex color colortext font ',11'
+  set output 'entalpiaVaporizacion.tex'
+  set size 1,1
+  set autoscale
+  set lmargin 0.5
+  set rmargin 0.5
+  set encoding utf8
+  set decimalsign '.'
+  set format x '$%.1f$'
+  set format y '$%.3f$'
+  set title '\bf Entalpía de vaporización del N_2'
+
+  set xlabel 'Potencia disipada, $\dot{W}$/ J s$^{-1}$'
+  set xrange [-3:0]
+  set xtics -3,0.5,0
+  set xtics add ('$-3$' -3)
+  set xtics add ('$-2$' -2)
+  set xtics add ('$-1$' -1)
+  set xtics add ('$0$' 0)
+
+  set ylabel 'Tasa de evaporación, $\dot{m}$/ g s$^{-1}$'
+  set yrange [0.01:0.03]
+  set ytics 0.01,0.005,0.03
+  set ytics add ('$0.01$' 0.01)
+  set ytics add ('$0.02$' 0.02)
+  set ytics add ('$0.03$' 0.03)
+
+  set tics scale 0,0.1
+
+  set mxtics
+  set mytics
+  set style line 13 lc rgb '#ddccdd'
+  set style line 12 lc rgb '#aabbaa'
+  set grid xtics mxtics ytics mytics back ls 12, ls 13
+
+  m(x) = -1/dh*x + Q/dh
+  dh = 200; Q = 1;
+  fit m(x) data u 3:1 via dh,Q
+
+  stats data u 3:1 name 'R'
+
+  str = (gprintf('$\dot{m}/$ g s$^{-1}$ $= %.2f$',Q/dh).gprintf('$\, -\, %.3f\, \dot{W}/$ J s$^{-1}$',1/dh))
+  set label str at -2.5,0.022 rotate by -25 front
+
+  set key box linestyle -1
+  set key samplen 0.01
+  set key top right Left
+  set key spacing 2
+  set key width -1
+  set key height 1
+  set key reverse
+
+  plot data u 3:1:4:2 w xyerrorbars lw 2 pt 7 lc 'red' notitle, \
+       data u 3:1 w p ps 1 pt 7 lc 'blue' title 'Datos experimentales', \
+       m(x) w l lw 2 lc 'black' title (gprintf('Recta de ajuste, $R^2 = %.2f$',R_correlation**2))
+
+  unset output
+#+END_SRC
+
+#+RESULTS:

@@ -1,0 +1,149 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolortrue
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktextfalse
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+    \definecolor{tbcol}{rgb}{1,1,1}%
+\begin{picture}(7200.00,10080.00)%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%%
+      \put(-66,2904){\makebox(0,0)[r]{\strut{}$0$}}%
+      \csname LTb\endcsname%%
+      \put(-66,3990){\makebox(0,0)[r]{\strut{}$15$}}%
+      \csname LTb\endcsname%%
+      \put(-66,5075){\makebox(0,0)[r]{\strut{}$30$}}%
+      \csname LTb\endcsname%%
+      \put(-66,6161){\makebox(0,0)[r]{\strut{}$45$}}%
+      \csname LTb\endcsname%%
+      \put(-66,7247){\makebox(0,0)[r]{\strut{}$60$}}%
+      \csname LTb\endcsname%%
+      \put(-66,8332){\makebox(0,0)[r]{\strut{}$75$}}%
+      \csname LTb\endcsname%%
+      \put(-66,9418){\makebox(0,0)[r]{\strut{}$90$}}%
+      \csname LTb\endcsname%%
+      \put(66,2684){\makebox(0,0){\strut{}$0$}}%
+      \csname LTb\endcsname%%
+      \put(949,2684){\makebox(0,0){\strut{}$120$}}%
+      \csname LTb\endcsname%%
+      \put(1833,2684){\makebox(0,0){\strut{}$240$}}%
+      \csname LTb\endcsname%%
+      \put(2716,2684){\makebox(0,0){\strut{}$360$}}%
+      \csname LTb\endcsname%%
+      \put(3600,2684){\makebox(0,0){\strut{}$480$}}%
+      \csname LTb\endcsname%%
+      \put(4483,2684){\makebox(0,0){\strut{}$600$}}%
+      \csname LTb\endcsname%%
+      \put(5366,2684){\makebox(0,0){\strut{}$720$}}%
+      \csname LTb\endcsname%%
+      \put(6250,2684){\makebox(0,0){\strut{}$840$}}%
+      \csname LTb\endcsname%%
+      \put(7133,2684){\makebox(0,0){\strut{}$960$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%%
+      \put(-539,6161){\rotatebox{-270}{\makebox(0,0){\strut{}Masa de N$_2$ evaporado, $m^v$/ g}}}%
+      \put(3599,2354){\makebox(0,0){\strut{}\shortstack{Tiempo, $t$/ s\\ \,}}}%
+      \csname LTb\endcsname%%
+      \put(1057,283){\makebox(0,0)[l]{\strut{}Datos experimentales ($I = 0.45$A), $R^2 = 0.9989$}}%
+      \csname LTb\endcsname%%
+      \put(1057,723){\makebox(0,0)[l]{\strut{}Datos experimentales ($I = 0.40$A), $R^2 = 0.99995$}}%
+      \csname LTb\endcsname%%
+      \put(1057,1163){\makebox(0,0)[l]{\strut{}Datos experimentales ($I = 0.30$A), $R^2 = 0.99990$}}%
+      \csname LTb\endcsname%%
+      \put(1057,1603){\makebox(0,0)[l]{\strut{}Datos experimentales ($I = 0.25$A), $R^2 = 0.99994$}}%
+      \csname LTb\endcsname%%
+      \put(1057,2043){\makebox(0,0)[l]{\strut{}Datos experimentales ($I = 0$A), $R^2 = 0.9993$}}%
+      \colorrgb{0.00,0.00,1.00}%%
+      \put(1833,3773){\rotatebox{14}{\makebox(0,0)[l]{\strut{}$m^v_{45}/$ g $= 1.1$$\, +\, 2.71e-02\, t/$ s}}}%
+      \colorrgb{0.00,0.39,0.00}%%
+      \put(1833,5437){\rotatebox{12}{\makebox(0,0)[l]{\strut{}$m^v_{40}/$ g $= 26.1$$\, +\, 2.21e-02\, t/$ s}}}%
+      \colorrgb{0.75,0.00,1.00}%%
+      \put(1833,6885){\rotatebox{9}{\makebox(0,0)[l]{\strut{}$m^v_{30}/$ g $= 47.4$$\, +\, 1.69e-02\, t/$ s}}}%
+      \colorrgb{0.75,0.25,0.00}%%
+      \put(1833,8043){\rotatebox{8}{\makebox(0,0)[l]{\strut{}$m^v_{25}/$ g $= 63.4$$\, +\, 1.54e-02\, t/$ s}}}%
+      \colorrgb{1.00,0.00,0.00}%%
+      \put(1833,8911){\rotatebox{6}{\makebox(0,0)[l]{\strut{}$m^v_0/$ g $= 77.4$$\, +\, 1.07e-02\, t/$ s}}}%
+      \csname LTb\endcsname%%
+      \put(3599,9748){\makebox(0,0){\strut{}\bf Diagrama termogravimétrico del N_2}}%
+    }%
+    \gplbacktext
+    \put(0,0){\includegraphics[width={360.00bp},height={504.00bp}]{diagramaTermogravimetrico}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup
